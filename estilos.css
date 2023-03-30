@@ -1,7 +1,6 @@
-
 * {
- box-sizing: border-box;
-}
+  box-sizing: border-box;
+ }
 
 
 #cabecera {
@@ -16,7 +15,6 @@
 
     #cabecera div{
         display: flex;
-        flex-direction: row;
         align-items: center;
     }
     
@@ -30,54 +28,58 @@
         margin-right: 3cm;
     }
    
-    section {
-       display: block;
-       background-color: antiquewhite;
-       border-top: black;
-       margin: 2cm;
-       height: 6cm;
-       width: 25cm;
-       margin: auto;
-       font-style: oblique;
+    header #descripcion{
+      display: flex;
+      flex-direction: column;
     }
     
-    header h2 {
+     header div h2 {
        margin: auto;
        font-size: 30px;
        font-weight: lighter;
        font-family:'Courier New', Courier, monospace;
     }
     
-    header h3{
+      header div h3{
        margin: 8px;
-       font-size: 30px;
+       font-size:x-large;
        font-weight: lighter;
     }
 
-    section h1{    
+    div div{
+      border-style: solid;
+      border-radius:90px;
+      border-color: black;
+      margin :5mm;
       text-align: center;
-      font-family: 'Roboto', sans-serif;
-      margin-bottom: 2px;
+      font-size: x-large;
     }
-    
 
-nav ul{
-      display: block;
-      padding-bottom:40px;
-      margin:auto;
-      font-weight:bolder;
-      font-size:large;
-      text-align: center;
+     div div:hover{
+      background-color: orange;
+    }
+
+     a {
+      text-decoration: none;
+    }
+
+    div .home {
+      font-size: xx-large;
+    }
+
+    section {
+      background-color: antiquewhite;
+      border-style: solid;
+      margin: auto;
+      height: 6cm;
+      width: 25cm;
+      font-style: oblique;
    }
 
-    nav ul li{
-      padding:3px;
-      list-style: none;
-    }
+   main section h1{
+    text-align: center;
+   }
 
-    #estudios{
-      margin-top: 5mm;
-    }
 
 
     
